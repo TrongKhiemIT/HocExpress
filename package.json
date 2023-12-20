@@ -1,0 +1,35 @@
+{
+  "name": "codeexpress",
+  "version": "1.0.0",
+  "description": "Tu hoc va code backend express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrongKhiemIT/HocExpress.git"
+  },
+  "author": "TrongKhiemIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrongKhiemIT/HocExpress/issues"
+  },
+  "homepage": "https://github.com/TrongKhiemIT/HocExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
